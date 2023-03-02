@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Family Therapy - Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<!-- This above portion of the code sets the structure of an HTML webpage
+	and uses a link for the CSS file that sets up how the page will look. -->
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Family Therapy</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="about.html">About</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<!-- This aboive portion of the code creates a navigation bar with
+	Bootstrap navbar components. Navbar and navbar-expand lg classes
+define the style and behavior. navbar-brand tag displays the name of the
+website. navbar-toggler displays the links of smaller screens
+The navbar collapses the navbar-nav, ml-auto style and align the links.
+those two links are the home page and the about page. and active indicates 
+current page. the 'a' class defines the link destination and displays text.-->
+	<main class="container">
+		<h1>Welcome to Fardowsaa's Family Therapy</h1>
+		<img src="family2.jpeg" alt="Family therapy session">
+
+		<p>We provide counseling and therapy services for families in need of support and guidance. Our trained therapists are here to help you and your loved ones navigate through difficult times and work towards a happier, healthier family dynamic.</p>
+		<h2>Our Services</h2>
+		<table class="table">
+		  <thead>
+		    <tr>
+		      <th scope="col"></th>
+		      <th scope="col">Services</th>
+		      <th scope="col">Description</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td>Family Counseling</td>
+		      <td>We offer family counseling sessions to help families work through communication issues, conflicts, and other challenges that may be impacting their relationships.</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td>Parenting Support</td>
+		      <td>Our therapists can provide guidance and support to parents who may be struggling with managing their child's behavior, adjusting to changes in the family dynamic, or other parenting-related issues.</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">3</th>
+		      <td>Marriage Counseling</td>
+		      <td>We also offer marriage counseling services to help couples work through conflicts, improve communication, and strengthen their relationship.</td>
+		    </tr>
+		  </tbody>
+		</table>
+<!-- This above portion of the code defines the main content of my webpage
+The main tag contains the heading, my image, and the text that describes the services we offer
+Then there is a subheading that has all the services including familt counseling, parenting
+support, etc. The table tag creates the table with the thead and then the header row is 
+tbody for the data rows. th explais the coloums. The scope is used to
+associate the number in the first coloumn with the row headers. -->
+		<h2>Contact Us</h2>
+		<form>
+		  <div class="form-group">
+		    <label for="name">Name</label>
+		    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+		  </div>
+		  <div class="form-group">
+		    <label for >Message</label>
+			<textarea class="form-control" id="message" rows="5"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+			</main>
+			<!-- Bootstrap JS (jQuery and Popper.js required for Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- Finally this last portion of the code uses HTML for a form
+that allows users to submit their name and messege then this messege goes to the
+the website owner aka ME :). -->
